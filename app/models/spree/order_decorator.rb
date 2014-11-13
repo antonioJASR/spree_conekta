@@ -1,5 +1,4 @@
-module Spree
-  Order.class_eval do
+Spree::Order.class_eval do
     #HACK
     Spree::Conekta
     Spree::Conekta::Response
